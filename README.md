@@ -52,34 +52,30 @@ Note that when we pass color props to the Button component, we use the same name
 | bgColor | string | Background color. The name of the color as written in the theme object. | none    | yes       |
 
 <br />
-<br />
 
 ### Styling Props:
 
 | prop         | value                       | Description                                                                    | default   | required? |
 | ------------ | --------------------------- | ------------------------------------------------------------------------------ | --------- | --------- |
 | size         | 'xs', 'sm', 'md', 'lg', 'xl | Background color. The name of the color as written in the theme object.        | 'md'      | no        |
-| icon         | any                         | Icon to display in the button or nex to the text if proviced.                  | none      | no        |
-| iconSize     | string                      | The font-size of the icon, any unit is possible. e.g: '2rem' or '20px'.        | 'initial' | no        |
+| icon         | any                         | Icon to display in the button or next to the text if provided.                 | none      | no        |
+| iconSize     | string                      | The font-size of the icon, any unit is acceptable. e.g: '2rem' or '20px'.      | 'initial' | no        |
 | iconPosition | 'left', 'right'             | The position of the icon, relatively to the text if provided.                  | 'left'    | no        |
-| shape        | 'pill', 'circle'            | The name of the color as written in the theme object.                          | regular   | no        |
+| shape        | 'pill', 'circle'            | The shape of the button.                                                       | regular   | no        |
 | fontWeight   | string                      | Font weight of the text. Accepts any valid CSS value.                          | 'initial' | no        |
 | showShadow   | boolean                     | Determines whether the button should have a shadow or not.                     | true      | no        |
 | showBorder   | boolean                     | Determines whether the button should have a border or not.                     | true      | no        |
 | borderWidth  | string                      | The width of the border if exists, works with any unit. e.g: '2rem' or '20px'. | '1px'     | no        |
 | borderColor  | string                      | Border color. The name of the color as written in the theme object.            | 'bgColor' | no        |
 | fontWeight   | string                      | Font weight of the text. Accepts any valid CSS value.                          | 'initial' | no        |
-| handleClick  | function                    | Works the same as onClick.                                                     | none      | no        |
-| disabled     | boolean                     | Determines whether the button should be disabled or not.                       | false     | no        |
 
-<br />
 <br />
 
 ### Animation/Hover Props:
 
 | prop         | value                                                                  | Description                                                                                                                                 | default                    | required? |
 | ------------ | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | --------- |
-| hoverColor   | string                                                                 | Font hover color. The name of the color as written in the theme object .                                                                    | color                      | no        |
+| hoverColor   | string                                                                 | Font color on hover. The name of the color as written in the theme object .                                                                 | color                      | no        |
 | hoverEffect  | 'expand', 'lowerOpacity', '2dClick', 'slideFormLeft', 'slideFromRight' | Button animation on hover                                                                                                                   | 'expand'.                  | no        |
 | slideBgColor | string                                                                 | if a slide hoverEffect was selected, you can specify the background color of the slider. Should be written the same as in the theme object. | inverses 'color'&'bgColor' | no        |
 
