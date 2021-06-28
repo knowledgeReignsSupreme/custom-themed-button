@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -36,7 +36,15 @@
     "trailingComma": "es5"
   },
   "name": "custom-themed-button",
-  "author": "David",
+  "author": {
+    "name": "David Sharki",
+    "email": "david17895@gmail.com",
+    "url": "http://www.davidsharki.com"
+  },
+  "repository": {
+    "url": "https://github.com/knowledgeReignsSupreme/custom-themed-button",
+    "type": "git"
+  },
   "module": "dist/custom-button.esm.js",
   "size-limit": [
     {
