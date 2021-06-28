@@ -148,7 +148,7 @@ export const Button: React.FC<IProps> = ({
 const StyledButton = styled.button<IProps>`
   z-index: 1;
   position: relative;
-  font-weight: bold;
+  font-weight: ${props => props.fontWeight || 'initial'};
   cursor: pointer;
   transition: all 0.4s;
 
